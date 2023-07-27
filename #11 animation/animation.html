@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+.kotak {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    animation: animasikotak 2s ease-in infinite normal none running;
+}
+
+@keyframes animasikotak{
+    0%{width: 100px;
+        height: 100px;
+        background-color: magenta;
+    }
+    50%{
+        width: 300px;
+        height: 100px;
+        background-color: blue;
+    }
+    100%{
+        width: 100px;
+        height: 600px;
+        background-color: maroon;
+    }
+}
+    </style>
+    
+</head>
+<body>
+    <div class="kotak"></div>
+</body>
+</html>
